@@ -1,0 +1,31 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#game-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  border: 2px solid black;
+}
+#ball {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#goal {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  position: absolute;
+  top: 80%;
+  left: 80%;
+}
